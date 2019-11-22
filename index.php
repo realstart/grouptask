@@ -1,6 +1,39 @@
 <?php
-  include 'header.php';
+  ini_set('display_errors', 1);
+  ini_set('display_startup_errors', 1);
+  error_reporting(E_ALL);
+
+  include "config.php";
+  include "content.php";
 ?>
+<!doctype html>
+<html lang="<? echo $lang; ?>" class="<? echo $lang; ?>">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title><? echoData('title'); ?></title>
+    <link href="vendor/reset.min.css" rel="stylesheet" type="text/css">
+    <link href="fonts/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="vendor/outdatedbrowser/outdatedbrowser.min.css">
+    <link href="vendor/lity/lity.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="nav <?php if($devMode){ echo 'show'; } ?>" id="nav">
+      <div class="nav-holder">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="javascript:scrollPageTo('<? echoData('tag0'); ?>');"><? echoData('nav0'); ?></a></li>
+          <li><a href="javascript:scrollPageTo('<? echoData('tag1'); ?>');"><? echoData('nav1'); ?></a></li>
+          <li><a href="javascript:scrollPageTo('<? echoData('tag2'); ?>');"><? echoData('nav2'); ?></a></li>
+          <li><a target="_blank" href="./pdf/USJE_Double-sidedPRINT.pdf"><? echoData('nav3'); ?></a></li>
+          <li><a href="advocacy.php"><? echoData('nav4'); ?></a></li>
+          <li><? echoData('langtoggle'); ?></li>
+        </ul>
+      </div>
+      <div class="nav-block"></div>
+      <a href="<? echoData('button_link'); ?>"><img class="logo" width="191" height="52" src="<? echoData('nav_img'); ?>" alt="<? echoData('nav_alt'); ?>" /></a>
+      <div class="burger" id="burger"><img src="images/burger.svg" width="40" /></div>
+    </div>
   
 	<?php
   if (!$devMode){
@@ -215,7 +248,65 @@
     ?>
     
     <div id="outdated"></div>
-<?php
-  include 'footer.php';
-?>
-   
+
+    <script src="vendor/outdatedbrowser/outdatedbrowser.min.js"></script>
+
+    <?php
+    if (!$devMode){
+    echo '
+    <!-- SplitText -->
+    <script src="vendor/utils/SplitText.min.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="vendor/plugins/DrawSVGPlugin.min.js"></script>
+	
+    <!-- ScrollMagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    
+    <!-- lity -->
+    <script src="vendor/lity/zepto.min.js"></script>
+    <script src="vendor/lity/lity.min.js"></script>
+
+    <!-- site -->
+    <script src="' . getData("SVGAnimations") . '"></script>
+    <script src="scripts/script.js"></script>';
+    }
+    ?>
+    <script>
+      //event listener: DOM ready
+      function addLoadEvent(func) {
+          var oldonload = window.onload;
+          if (typeof window.onload != 'function') {
+              window.onload = func;
+          } else {
+              window.onload = function() {
+                  if (oldonload) {
+                      oldonload();
+                  }
+                  func();
+              }
+          }
+      }
+      //call plugin function after DOM ready
+      addLoadEvent(function(){
+          outdatedBrowser({
+              bgColor: '#e4e4e4',
+              color: '#272727',
+              lowerThan: 'transform',
+              languagePath: 'vendor/outdatedbrowser/lang/<?php echo $lang; ?>.html'
+          })
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '<? echoData("GAID"); ?>', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
