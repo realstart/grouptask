@@ -1,0 +1,42 @@
+<svg class="curves_svg" id="curves_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="-31.075 -37.535 683.65 825.77" width="100%" height="100%" enable-background="new 0 0 621.5 750.7" xml:space="preserve">
+	<!-- viewBox="0 0 621.5 750.7" -->
+	<filter id="blur" x="-50%" width="200%" y="-50%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12" />
+    </filter>
+    <g stroke-width="3" stroke-miterlimit="10" stroke="white" fill="none">
+	    <g stroke="#272727">
+			<path id="curves_svg_curves" d="M20,11h384.2l102.1,0.7c57.7,0,104.5,40.7,104.5,91 s-46.8,91-104.5,91L367,193H243.6H115c-54.5,0-99.3,36.3-104.1,82.7c-0.3,2.7-0.4,5.5-0.4,8.3c0,50.3,46.8,91,104.5,91h160.5h128.8 h102.1c57.7,0,104.5,40.7,104.5,91s-46.8,91-104.5,91H367l-121.9,0.2H115.2c-57.7,0-104.5,40.7-104.5,91s46.8,91,104.5,91h504.5"/>
+		</g>
+		<g filter="url(#blur)">
+			<path id="curves_svg_curvesb" d="M20,11h384.2l102.1,0.7c57.7,0,104.5,40.7,104.5,91 s-46.8,91-104.5,91L367,193H243.6H115c-54.5,0-99.3,36.3-104.1,82.7c-0.3,2.7-0.4,5.5-0.4,8.3c0,50.3,46.8,91,104.5,91h160.5h128.8 h102.1c57.7,0,104.5,40.7,104.5,91s-46.8,91-104.5,91H367l-121.9,0.2H115.2c-57.7,0-104.5,40.7-104.5,91s46.8,91,104.5,91h504.5"/>
+			<g fill="none">
+				<circle id="curves_svg_dot0b" cx="11" cy="11" r="9.5"/>
+				<circle id="curves_svg_dot2b" cx="11" cy="285.7" r="9.5"/>
+				<circle id="curves_svg_dot4b" cx="11" cy="647" r="9.5"/>
+				<circle id="curves_svg_dot1b" cx="610.5" cy="101.5" r="9.5"/>
+				<circle id="curves_svg_dot3b" cx="610.5" cy="466.3" r="9.5"/>
+				<circle id="curves_svg_dot5b" cx="610.5" cy="739.7" r="9.5"/>
+			</g>
+		</g>
+		<g>
+			<path id="curves_svg_curvesw" d="M20,11h384.2l102.1,0.7c57.7,0,104.5,40.7,104.5,91 s-46.8,91-104.5,91L367,193H243.6H115c-54.5,0-99.3,36.3-104.1,82.7c-0.3,2.7-0.4,5.5-0.4,8.3c0,50.3,46.8,91,104.5,91h160.5h128.8 h102.1c57.7,0,104.5,40.7,104.5,91s-46.8,91-104.5,91H367l-121.9,0.2H115.2c-57.7,0-104.5,40.7-104.5,91s46.8,91,104.5,91h504.5"/>
+		</g>
+		<g fill="#151515" stroke="#272727">
+			<circle id="curves_svg_dot0" cx="11" cy="11" r="9.5"/>
+			<circle id="curves_svg_dot2" cx="11" cy="285.7" r="9.5"/>
+			<circle id="curves_svg_dot4" cx="11" cy="647" r="9.5"/>
+			<circle id="curves_svg_dot1" cx="610.5" cy="101.5" r="9.5"/>
+			<circle id="curves_svg_dot3" cx="610.5" cy="466.3" r="9.5"/>
+			<circle id="curves_svg_dot5" cx="610.5" cy="739.7" r="9.5"/>
+		</g>
+		<g>
+			<circle id="curves_svg_dot0w" cx="11" cy="11" r="9.5"/>
+			<circle id="curves_svg_dot2w" cx="11" cy="285.7" r="9.5"/>
+			<circle id="curves_svg_dot4w" cx="11" cy="647" r="9.5"/>
+			<circle id="curves_svg_dot1w" cx="610.5" cy="101.5" r="9.5"/>
+			<circle id="curves_svg_dot3w" cx="610.5" cy="466.3" r="9.5"/>
+			<circle id="curves_svg_dot5w" cx="610.5" cy="739.7" r="9.5"/>
+		</g>
+	</g>
+</svg>

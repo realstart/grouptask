@@ -1,0 +1,42 @@
+<svg class="curves_mobile_svg" id="curves_mobile_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%"
+	viewBox="-2.22 -31.85 48.84 700.7" xml:space="preserve">
+	<!-- viewBox="0 0 44.4 637" -->
+	<filter id="blur" x="-50%" width="200%" y="-50%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="12" />
+    </filter>
+	<g stroke-width="3" stroke-miterlimit="10" stroke="white" fill="none">
+		<g stroke="#272727">
+			<path id="curves_svg_curves" d="M22.5,5.1c-47.2,61.6,0,126,0,126l2,2.8 c7.1,11.3,38.7,68.2-2,121.3c-47.2,61.6,0,126,0,126l2,3.3c7.1,11.3,38.7,68.2-2,121.3c-47.2,61.6,0,126,0,126"/>
+		</g>
+		<g filter="url(#blur)">
+			<path id="curves_svg_curvesb" d="M22.5,5.1c-47.2,61.6,0,126,0,126l2,2.8 c7.1,11.3,38.7,68.2-2,121.3c-47.2,61.6,0,126,0,126l2,3.3c7.1,11.3,38.7,68.2-2,121.3c-47.2,61.6,0,126,0,126"/>
+			<g fill="none">
+				<circle id="curves_svg_dot0b" cx="22.2" cy="6.5" r="6.5"/>
+				<circle id="curves_svg_dot1b" cx="22.2" cy="131.5" r="6.5"/>
+				<circle id="curves_svg_dot2b" cx="22.2" cy="255.5" r="6.5"/>
+				<circle id="curves_svg_dot3b" cx="22.2" cy="380.5" r="6.5"/>
+				<circle id="curves_svg_dot4b" cx="22.2" cy="505.5" r="6.5"/>
+				<circle id="curves_svg_dot5b" cx="22.2" cy="630.5" r="6.5"/>
+			</g>
+		</g>
+		<g>
+			<path id="curves_svg_curvesw" d="M22.5,5.1c-47.2,61.6,0,126,0,126l2,2.8 c7.1,11.3,38.7,68.2-2,121.3c-47.2,61.6,0,126,0,126l2,3.3c7.1,11.3,38.7,68.2-2,121.3c-47.2,61.6,0,126,0,126"/>
+		</g>
+		<g fill="#151515" stroke="#272727">
+			<circle id="curves_svg_dot0" cx="22.2" cy="6.5" r="6.5"/>
+			<circle id="curves_svg_dot1" cx="22.2" cy="131.5" r="6.5"/>
+			<circle id="curves_svg_dot2" cx="22.2" cy="255.5" r="6.5"/>
+			<circle id="curves_svg_dot3" cx="22.2" cy="380.5" r="6.5"/>
+			<circle id="curves_svg_dot4" cx="22.2" cy="505.5" r="6.5"/>
+			<circle id="curves_svg_dot5" cx="22.2" cy="630.5" r="6.5"/>
+		</g>
+		<g>
+			<circle id="curves_svg_dot0w" cx="22.2" cy="6.5" r="6.5"/>
+			<circle id="curves_svg_dot1w" cx="22.2" cy="131.5" r="6.5"/>
+			<circle id="curves_svg_dot2w" cx="22.2" cy="255.5" r="6.5"/>
+			<circle id="curves_svg_dot3w" cx="22.2" cy="380.5" r="6.5"/>
+			<circle id="curves_svg_dot4w" cx="22.2" cy="505.5" r="6.5"/>
+			<circle id="curves_svg_dot5w" cx="22.2" cy="630.5" r="6.5"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,93 @@
+<svg version="1.1" id="illuminating_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="-15.91 -5.3 350.02 63.6" width="100%" height="100%" xml:space="preserve">
+	<!-- viewBox="0 0 318.2 53" -->
+	<filter id="blur" x="-50%" width="200%" y="-50%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+    </filter>
+	<g fill="none" stroke-width="2.077" stroke-miterlimit="10">
+		<g stroke="white" opacity="0.08">
+			<line id="illuminating_svg_10" x1="1" y1="0.3" x2="1" y2="52.5"/>
+			<line id="illuminating_svg_11" x1="4.7" y1="52.5" x2="4.7" y2="0.3"/>
+			<polyline id="illuminating_svg_20" points="17.4,0.3 17.4,51.4 33.9,51.4 "/>
+			<polyline id="illuminating_svg_21" points="21,0.3 21,47.8 33.9,47.8 "/>
+			<polyline id="illuminating_svg_30" points="42,0.3 42,51.4 58.5,51.4 "/>
+			<polyline id="illuminating_svg_31" points="45.7,0.3 45.7,47.8 58.5,47.8 "/>
+			<path id="illuminating_svg_40" d="M89.3,0.3V41c0,9.1-7.9,10.9-11.6,10.9 c-3.7,0-11.6-1.8-11.6-10.9V0.3"/>
+			<path id="illuminating_svg_41" d="M69.7,0.2v40.7c0,6.3,5.5,7.5,8,7.5 c2.5,0,8-1.3,8-7.5V0.3"/>
+			<polyline id="illuminating_svg_50" points="127.1,52.5 127.1,1.4 124.1,1.4 113.6,42.2 103.1,1.4 100.2,1.4 100.2,52.5 "/>
+			<polyline id="illuminating_svg_51" points="123.4,52.5 123.4,19.2 114.9,51.5 112.3,51.5 103.8,19.2 103.8,52.5 "/>
+			<line id="illuminating_svg_60" x1="140.4" y1="0.3" x2="140.4" y2="52.5"/>
+			<line id="illuminating_svg_61" x1="144.1" y1="52.5" x2="144.1" y2="0.3"/>
+			<polyline id="illuminating_svg_70" points="176.6,0.4 176.6,39.9 161.1,1.4 158.2,1.4 158.2,52.5 "/>
+			<polyline id="illuminating_svg_71" points="161.9,52.5 161.9,13 177.4,51.5 180.4,51.5 180.4,0.4 "/>
+			<polyline id="illuminating_svg_80" points="215.5,52.7 215.5,52.5 204,1.4 201.7,1.4 190.2,52.5 190.2,52.7 "/>
+			<polyline id="illuminating_svg_81" points="211.9,52.7 211.9,52.5 208.3,36.3 197.4,36.3 193.8,52.5 193.8,52.7 "/>
+			<polygon id="illuminating_svg_82" points="207.5,33.2 202.8,12.3 198.1,33.2 "/>
+			<polyline id="illuminating_svg_90" points="229.4,52.5 229.4,5.1 239.1,5.1 "/>
+			<polyline id="illuminating_svg_91" points="225.8,52.5 225.8,5.1 216.1,5.1 "/>
+			<line id="illuminating_svg_92" x1="216.1" y1="1.4" x2="239.1" y2="1.4"/>
+			<line id="illuminating_svg_100" x1="245.4" y1="0.3" x2="245.4" y2="52.5"/>
+			<line id="illuminating_svg_101" x1="249.1" y1="52.5" x2="249.1" y2="0.3"/>
+			<polyline id="illuminating_svg_110" points="280.2,0.4 280.2,39.9 264.7,1.4 261.8,1.4 261.8,52.5 "/>
+			<polyline id="illuminating_svg_111" points="265.5,52.5 265.5,13 281,51.5 283.9,51.5 283.9,0.4 "/>
+			<path id="illuminating_svg_120" d="M317.1,17.5V12c0-9.1-7.9-10.9-11.6-10.9 C301.9,1,294,2.9,294,12v29c0,9.1,7.9,10.9,11.6,10.9c3.7,0,11.6-1.8,11.6-10.9V24.9h-12.6"/>
+			<path id="illuminating_svg_121" d="M313.5,17.5v-5.5c0-6.3-5.5-7.5-8-7.5 c-2.5,0-8,1.3-8,7.5v28.8c0,6.3,5.5,7.5,8,7.5c2.5,0,8-1.3,8-7.5V28.2h-9"/>
+		</g>
+		<g stroke="white" filter="url(#blur)">
+			<line id="illuminating_svg_10b" x1="1" y1="0.3" x2="1" y2="52.5"/>
+			<line id="illuminating_svg_11b" x1="4.7" y1="52.5" x2="4.7" y2="0.3"/>
+			<polyline id="illuminating_svg_20b" points="17.4,0.3 17.4,51.4 33.9,51.4 "/>
+			<polyline id="illuminating_svg_21b" points="21,0.3 21,47.8 33.9,47.8 "/>
+			<polyline id="illuminating_svg_30b" points="42,0.3 42,51.4 58.5,51.4 "/>
+			<polyline id="illuminating_svg_31b" points="45.7,0.3 45.7,47.8 58.5,47.8 "/>
+			<path id="illuminating_svg_40b" d="M89.3,0.3V41c0,9.1-7.9,10.9-11.6,10.9 c-3.7,0-11.6-1.8-11.6-10.9V0.3"/>
+			<path id="illuminating_svg_41b" d="M69.7,0.2v40.7c0,6.3,5.5,7.5,8,7.5 c2.5,0,8-1.3,8-7.5V0.3"/>
+			<polyline id="illuminating_svg_50b" points="127.1,52.5 127.1,1.4 124.1,1.4 113.6,42.2 103.1,1.4 100.2,1.4 100.2,52.5 "/>
+			<polyline id="illuminating_svg_51b" points="123.4,52.5 123.4,19.2 114.9,51.5 112.3,51.5 103.8,19.2 103.8,52.5 "/>
+			<line id="illuminating_svg_60b" x1="140.4" y1="0.3" x2="140.4" y2="52.5"/>
+			<line id="illuminating_svg_61b" x1="144.1" y1="52.5" x2="144.1" y2="0.3"/>
+			<polyline id="illuminating_svg_70b" points="176.6,0.4 176.6,39.9 161.1,1.4 158.2,1.4 158.2,52.5 "/>
+			<polyline id="illuminating_svg_71b" points="161.9,52.5 161.9,13 177.4,51.5 180.4,51.5 180.4,0.4 "/>
+			<polyline id="illuminating_svg_80b" points="215.5,52.7 215.5,52.5 204,1.4 201.7,1.4 190.2,52.5 190.2,52.7 "/>
+			<polyline id="illuminating_svg_81b" points="211.9,52.7 211.9,52.5 208.3,36.3 197.4,36.3 193.8,52.5 193.8,52.7 "/>
+			<polygon id="illuminating_svg_82b" points="207.5,33.2 202.8,12.3 198.1,33.2 "/>
+			<polyline id="illuminating_svg_90b" points="229.4,52.5 229.4,5.1 239.1,5.1 "/>
+			<polyline id="illuminating_svg_91b" points="225.8,52.5 225.8,5.1 216.1,5.1 "/>
+			<line id="illuminating_svg_92b" x1="216.1" y1="1.4" x2="239.1" y2="1.4"/>
+			<line id="illuminating_svg_100b" x1="245.4" y1="0.3" x2="245.4" y2="52.5"/>
+			<line id="illuminating_svg_101b" x1="249.1" y1="52.5" x2="249.1" y2="0.3"/>
+			<polyline id="illuminating_svg_110b" points="280.2,0.4 280.2,39.9 264.7,1.4 261.8,1.4 261.8,52.5 "/>
+			<polyline id="illuminating_svg_111b" points="265.5,52.5 265.5,13 281,51.5 283.9,51.5 283.9,0.4 "/>
+			<path id="illuminating_svg_120b" d="M317.1,17.5V12c0-9.1-7.9-10.9-11.6-10.9 C301.9,1,294,2.9,294,12v29c0,9.1,7.9,10.9,11.6,10.9c3.7,0,11.6-1.8,11.6-10.9V24.9h-12.6"/>
+			<path id="illuminating_svg_121b" d="M313.5,17.5v-5.5c0-6.3-5.5-7.5-8-7.5 c-2.5,0-8,1.3-8,7.5v28.8c0,6.3,5.5,7.5,8,7.5c2.5,0,8-1.3,8-7.5V28.2h-9"/>
+		</g>
+		<g stroke="white">
+			<line id="illuminating_svg_10w" x1="1" y1="0.3" x2="1" y2="52.5"/>
+			<line id="illuminating_svg_11w" x1="4.7" y1="52.5" x2="4.7" y2="0.3"/>
+			<polyline id="illuminating_svg_20w" points="17.4,0.3 17.4,51.4 33.9,51.4 "/>
+			<polyline id="illuminating_svg_21w" points="21,0.3 21,47.8 33.9,47.8 "/>
+			<polyline id="illuminating_svg_30w" points="42,0.3 42,51.4 58.5,51.4 "/>
+			<polyline id="illuminating_svg_31w" points="45.7,0.3 45.7,47.8 58.5,47.8 "/>
+			<path id="illuminating_svg_40w" d="M89.3,0.3V41c0,9.1-7.9,10.9-11.6,10.9 c-3.7,0-11.6-1.8-11.6-10.9V0.3"/>
+			<path id="illuminating_svg_41w" d="M69.7,0.2v40.7c0,6.3,5.5,7.5,8,7.5 c2.5,0,8-1.3,8-7.5V0.3"/>
+			<polyline id="illuminating_svg_50w" points="127.1,52.5 127.1,1.4 124.1,1.4 113.6,42.2 103.1,1.4 100.2,1.4 100.2,52.5 "/>
+			<polyline id="illuminating_svg_51w" points="123.4,52.5 123.4,19.2 114.9,51.5 112.3,51.5 103.8,19.2 103.8,52.5 "/>
+			<line id="illuminating_svg_60w" x1="140.4" y1="0.3" x2="140.4" y2="52.5"/>
+			<line id="illuminating_svg_61w" x1="144.1" y1="52.5" x2="144.1" y2="0.3"/>
+			<polyline id="illuminating_svg_70w" points="176.6,0.4 176.6,39.9 161.1,1.4 158.2,1.4 158.2,52.5 "/>
+			<polyline id="illuminating_svg_71w" points="161.9,52.5 161.9,13 177.4,51.5 180.4,51.5 180.4,0.4 "/>
+			<polyline id="illuminating_svg_80w" points="215.5,52.7 215.5,52.5 204,1.4 201.7,1.4 190.2,52.5 190.2,52.7 "/>
+			<polyline id="illuminating_svg_81w" points="211.9,52.7 211.9,52.5 208.3,36.3 197.4,36.3 193.8,52.5 193.8,52.7 "/>
+			<polygon id="illuminating_svg_82w" points="207.5,33.2 202.8,12.3 198.1,33.2 "/>
+			<polyline id="illuminating_svg_90w" points="229.4,52.5 229.4,5.1 239.1,5.1 "/>
+			<polyline id="illuminating_svg_91w" points="225.8,52.5 225.8,5.1 216.1,5.1 "/>
+			<line id="illuminating_svg_92w" x1="216.1" y1="1.4" x2="239.1" y2="1.4"/>
+			<line id="illuminating_svg_100w" x1="245.4" y1="0.3" x2="245.4" y2="52.5"/>
+			<line id="illuminating_svg_101w" x1="249.1" y1="52.5" x2="249.1" y2="0.3"/>
+			<polyline id="illuminating_svg_110w" points="280.2,0.4 280.2,39.9 264.7,1.4 261.8,1.4 261.8,52.5 "/>
+			<polyline id="illuminating_svg_111w" points="265.5,52.5 265.5,13 281,51.5 283.9,51.5 283.9,0.4 "/>
+			<path id="illuminating_svg_120w" d="M317.1,17.5V12c0-9.1-7.9-10.9-11.6-10.9 C301.9,1,294,2.9,294,12v29c0,9.1,7.9,10.9,11.6,10.9c3.7,0,11.6-1.8,11.6-10.9V24.9h-12.6"/>
+			<path id="illuminating_svg_121w" d="M313.5,17.5v-5.5c0-6.3-5.5-7.5-8-7.5 c-2.5,0-8,1.3-8,7.5v28.8c0,6.3,5.5,7.5,8,7.5c2.5,0,8-1.3,8-7.5V28.2h-9"/>
+		</g>
+	</g>
+</svg>
