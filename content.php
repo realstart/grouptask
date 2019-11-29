@@ -49,7 +49,7 @@
 
 	$langtoggle_en = '<a class="langtoggle" href="http://fr.laragit.com"><span class="langtoggle-on">EN</span> | <span class="langtoggle-off" >FR</span></a>';
 
-	$langtoggle_fr = '<a class="langtoggle" href="http://en.laragit.com"><span class="langtoggle-off">EN</span> | <span class="langtoggle-on" >FR</span></a>';
+	$langtoggle_fr = '<a class="langtoggle" href="http://mt.laragit.com"><span class="langtoggle-off">EN</span> | <span class="langtoggle-on" >FR</span></a>';
 
 	$scrolldown_en = 'scroll down';
 	$scrolldown_fr = 'voir plus bas';
