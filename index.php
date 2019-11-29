@@ -26,7 +26,20 @@
           <li><a href="javascript:scrollPageTo('<? echoData('tag1'); ?>');"><? echoData('nav1'); ?></a></li>
           <li><a href="javascript:scrollPageTo('<? echoData('tag2'); ?>');"><? echoData('nav2'); ?></a></li>
           <li><a target="_blank" href="./pdf/USJE_Double-sidedPRINT.pdf"><? echoData('nav3'); ?></a></li>
-          <li><a href="advocacy.php"><? echoData('nav4'); ?></a></li>
+          <?php 
+            if($lang == "en")
+            {
+          ?>
+          <li><a target="_blank" href="./pdf/USJE_one-pagerNov25_WEB.pdf"><? echoData('nav4'); ?></a></li>
+          <?php 
+            }
+            else
+            {
+          ?>
+          <li><a target="_blank" href="./pdf/FR_USJE_one-pagerNov25_WEB.pdf"><? echoData('nav4'); ?></a></li>
+          <?php
+            }
+          ?>
           <li><? echoData('langtoggle'); ?></li>
         </ul>
       </div>

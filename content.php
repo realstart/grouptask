@@ -41,8 +41,8 @@
 	$nav3_en = "MEDIA";
 	$nav3_fr = "MÉDIA";
 
-	$nav4_en = "ADVOCACY";
-	$nav4_fr = "PLAIDOYER";
+	$nav4_en = "LEARN MORE";
+	$nav4_fr = "APPRENEZ-EN PLUS";
 
 	$tag3_en = "media";
 	$tag3_fr = "media";
